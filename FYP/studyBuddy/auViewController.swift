@@ -19,7 +19,9 @@ class auViewController: UIViewController {
             list2.append(input.text!)
             input.text = ""
         }
-
+        
+       //self.dismiss(animated: true, completion:  nil)
+        self.navigationController?.popViewController(animated: true)
     }
     
     

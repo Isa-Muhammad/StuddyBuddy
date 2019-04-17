@@ -84,7 +84,7 @@ class dlViewController: UIViewController {
             inputDate.text = ""
             input.text = ""
         }
-
+        self.dismiss(animated: true, completion:  nil)
     }
     
 

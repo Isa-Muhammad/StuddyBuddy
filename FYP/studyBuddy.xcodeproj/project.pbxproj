@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		630D9DFC2214C2CA001ACB97 /* cellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D9DFB2214C2CA001ACB97 /* cellViewController.swift */; };
 		630D9DFE221609AA001ACB97 /* dlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D9DFD221609AA001ACB97 /* dlViewController.swift */; };
+		630F7BC722582200000A6C04 /* MarksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630F7BC622582200000A6C04 /* MarksCell.swift */; };
+		630F7BC922582376000A6C04 /* MarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630F7BC822582376000A6C04 /* MarksViewController.swift */; };
+		630F7BCB225824FB000A6C04 /* MarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630F7BCA225824FB000A6C04 /* MarkModel.swift */; };
 		63685449220A4E0100185F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63685448220A4E0100185F90 /* AppDelegate.swift */; };
 		6368544E220A4E0100185F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6368544C220A4E0100185F90 /* Main.storyboard */; };
 		63685450220A4E0300185F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6368544F220A4E0300185F90 /* Assets.xcassets */; };
@@ -25,6 +28,9 @@
 		24E19276E90AD472D0CD9E7E /* Pods_studyBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_studyBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		630D9DFB2214C2CA001ACB97 /* cellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellViewController.swift; sourceTree = "<group>"; };
 		630D9DFD221609AA001ACB97 /* dlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dlViewController.swift; sourceTree = "<group>"; };
+		630F7BC622582200000A6C04 /* MarksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksCell.swift; sourceTree = "<group>"; };
+		630F7BC822582376000A6C04 /* MarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksViewController.swift; sourceTree = "<group>"; };
+		630F7BCA225824FB000A6C04 /* MarkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkModel.swift; sourceTree = "<group>"; };
 		63685445220A4E0000185F90 /* studyBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = studyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63685448220A4E0100185F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6368544D220A4E0100185F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +100,9 @@
 				63685451220A4E0300185F90 /* LaunchScreen.storyboard */,
 				63E9623D223DAF2B0003983E /* GoogleService-Info.plist */,
 				63685454220A4E0300185F90 /* Info.plist */,
+				630F7BC622582200000A6C04 /* MarksCell.swift */,
+				630F7BC822582376000A6C04 /* MarksViewController.swift */,
+				630F7BCA225824FB000A6C04 /* MarkModel.swift */,
 			);
 			path = studyBuddy;
 			sourceTree = "<group>";
@@ -233,11 +242,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630F7BCB225824FB000A6C04 /* MarkModel.swift in Sources */,
 				63E9623A223D9A6D0003983E /* signUpViewController.swift in Sources */,
 				63EC98A4221CC497008EF069 /* unitViewController.swift in Sources */,
 				630D9DFE221609AA001ACB97 /* dlViewController.swift in Sources */,
 				63EC98A6221CD085008EF069 /* auViewController.swift in Sources */,
+				630F7BC922582376000A6C04 /* MarksViewController.swift in Sources */,
 				63685449220A4E0100185F90 /* AppDelegate.swift in Sources */,
+				630F7BC722582200000A6C04 /* MarksCell.swift in Sources */,
 				630D9DFC2214C2CA001ACB97 /* cellViewController.swift in Sources */,
 				63E96240223E39790003983E /* signInViewController.swift in Sources */,
 			);

@@ -9,6 +9,7 @@
 import UIKit
 
 var list2 = ["ASE", "PDAM", "RASS", "DISMOB", "FYP"]
+var myIndex = 0
 
 class unitViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -16,24 +17,33 @@ class unitViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     @IBOutlet weak var unitTableView: UITableView!
     
-    
+    //Tells the data source to return the number of rows in a given section of a table view.Required.
     func tableView(_ tableview: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return (list2.count)
     }
-    //Tells the data source to return the number of rows in a given section of a table view.Required.
     
     
+    //Asks the data source for a cell to insert in a particular location of the table view.Required.
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "cellTwo")
+         _ = tableView.dequeueReusableCell(withIdentifier: "cellTwo", for: indexPath)
         cell.textLabel?.text = list2[indexPath.row]
         
         return(cell)
         
     }
-    //Asks the data source for a cell to insert in a particular location of the table view.Required.
     
+    
+    
+    //
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        myIndex = indexPath.row
+        performSegue(withIdentifier: "tSeg", sender: list2[indexPath.row])
+    }
+    //
     
     //delete item from list
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath)
