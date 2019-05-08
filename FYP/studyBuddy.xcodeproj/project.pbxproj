@@ -12,10 +12,16 @@
 		630F7BC722582200000A6C04 /* MarksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630F7BC622582200000A6C04 /* MarksCell.swift */; };
 		630F7BC922582376000A6C04 /* MarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630F7BC822582376000A6C04 /* MarksViewController.swift */; };
 		630F7BCB225824FB000A6C04 /* MarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630F7BCA225824FB000A6C04 /* MarkModel.swift */; };
+		63185001226CA16F00F1AD68 /* StoryboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63185000226CA16F00F1AD68 /* StoryboardManager.swift */; };
+		63185003226CA2AA00F1AD68 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63185002226CA2AA00F1AD68 /* User.swift */; };
+		63185005226CA37F00F1AD68 /* Deadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63185004226CA37F00F1AD68 /* Deadline.swift */; };
+		63185007226CA3EA00F1AD68 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63185006226CA3EA00F1AD68 /* Unit.swift */; };
 		63685449220A4E0100185F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63685448220A4E0100185F90 /* AppDelegate.swift */; };
 		6368544E220A4E0100185F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6368544C220A4E0100185F90 /* Main.storyboard */; };
 		63685450220A4E0300185F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6368544F220A4E0300185F90 /* Assets.xcassets */; };
 		63685453220A4E0300185F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63685451220A4E0300185F90 /* LaunchScreen.storyboard */; };
+		63B8688A2269D45F00BC090F /* pomodoroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B868892269D45F00BC090F /* pomodoroViewController.swift */; };
+		63CFA27A2283940F003D4E00 /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CFA2792283940F003D4E00 /* BaseTabBarViewController.swift */; };
 		63E9623A223D9A6D0003983E /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E96239223D9A6D0003983E /* signUpViewController.swift */; };
 		63E9623E223DAF2B0003983E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63E9623D223DAF2B0003983E /* GoogleService-Info.plist */; };
 		63E96240223E39790003983E /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E9623F223E39790003983E /* signInViewController.swift */; };
@@ -31,14 +37,20 @@
 		630F7BC622582200000A6C04 /* MarksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksCell.swift; sourceTree = "<group>"; };
 		630F7BC822582376000A6C04 /* MarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksViewController.swift; sourceTree = "<group>"; };
 		630F7BCA225824FB000A6C04 /* MarkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkModel.swift; sourceTree = "<group>"; };
+		63185000226CA16F00F1AD68 /* StoryboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardManager.swift; sourceTree = "<group>"; };
+		63185002226CA2AA00F1AD68 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		63185004226CA37F00F1AD68 /* Deadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deadline.swift; sourceTree = "<group>"; };
+		63185006226CA3EA00F1AD68 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 		63685445220A4E0000185F90 /* studyBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = studyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63685448220A4E0100185F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6368544D220A4E0100185F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6368544F220A4E0300185F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63685452220A4E0300185F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63685454220A4E0300185F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B868892269D45F00BC090F /* pomodoroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoroViewController.swift; sourceTree = "<group>"; };
+		63CFA2792283940F003D4E00 /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 		63E96239223D9A6D0003983E /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
-		63E9623D223DAF2B0003983E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		63E9623D223DAF2B0003983E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "studyBuddy/Application/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		63E9623F223E39790003983E /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
 		63EC98A3221CC497008EF069 /* unitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unitViewController.swift; sourceTree = "<group>"; };
 		63EC98A5221CD085008EF069 /* auViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +70,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B1F466B226B36BF00381C76 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63185002226CA2AA00F1AD68 /* User.swift */,
+				630F7BCA225824FB000A6C04 /* MarkModel.swift */,
+				63185004226CA37F00F1AD68 /* Deadline.swift */,
+				63185006226CA3EA00F1AD68 /* Unit.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B1F466E226B3E0600381C76 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				63185000226CA16F00F1AD68 /* StoryboardManager.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		1B1F4671226B3EAE00381C76 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B1F4678226B3F4F00381C76 /* CustomCells */,
+				63CFA2792283940F003D4E00 /* BaseTabBarViewController.swift */,
+				63B868892269D45F00BC090F /* pomodoroViewController.swift */,
+				63EC98A5221CD085008EF069 /* auViewController.swift */,
+				630F7BC822582376000A6C04 /* MarksViewController.swift */,
+				63EC98A3221CC497008EF069 /* unitViewController.swift */,
+				630D9DFD221609AA001ACB97 /* dlViewController.swift */,
+				630D9DFB2214C2CA001ACB97 /* cellViewController.swift */,
+				63E96239223D9A6D0003983E /* signUpViewController.swift */,
+				63E9623F223E39790003983E /* signInViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1B1F4674226B3EEE00381C76 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				63E9623D223DAF2B0003983E /* GoogleService-Info.plist */,
+				63685454220A4E0300185F90 /* Info.plist */,
+				63685448220A4E0100185F90 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1B1F4675226B3F0000381C76 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				6368544C220A4E0100185F90 /* Main.storyboard */,
+				63685451220A4E0300185F90 /* LaunchScreen.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		1B1F4676226B3F0A00381C76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B1F4677226B3F1B00381C76 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B1F4677226B3F1B00381C76 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6368544F220A4E0300185F90 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1B1F4678226B3F4F00381C76 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				630F7BC622582200000A6C04 /* MarksCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
 		33804142A991F95019B14E56 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,21 +179,12 @@
 		63685447220A4E0000185F90 /* studyBuddy */ = {
 			isa = PBXGroup;
 			children = (
-				63685448220A4E0100185F90 /* AppDelegate.swift */,
-				63E9623F223E39790003983E /* signInViewController.swift */,
-				63E96239223D9A6D0003983E /* signUpViewController.swift */,
-				630D9DFB2214C2CA001ACB97 /* cellViewController.swift */,
-				630D9DFD221609AA001ACB97 /* dlViewController.swift */,
-				63EC98A3221CC497008EF069 /* unitViewController.swift */,
-				63EC98A5221CD085008EF069 /* auViewController.swift */,
-				6368544C220A4E0100185F90 /* Main.storyboard */,
-				6368544F220A4E0300185F90 /* Assets.xcassets */,
-				63685451220A4E0300185F90 /* LaunchScreen.storyboard */,
-				63E9623D223DAF2B0003983E /* GoogleService-Info.plist */,
-				63685454220A4E0300185F90 /* Info.plist */,
-				630F7BC622582200000A6C04 /* MarksCell.swift */,
-				630F7BC822582376000A6C04 /* MarksViewController.swift */,
-				630F7BCA225824FB000A6C04 /* MarkModel.swift */,
+				1B1F4676226B3F0A00381C76 /* Resources */,
+				1B1F466E226B3E0600381C76 /* Support */,
+				1B1F466B226B36BF00381C76 /* Model */,
+				1B1F4675226B3F0000381C76 /* UserInterface */,
+				1B1F4671226B3EAE00381C76 /* ViewControllers */,
+				1B1F4674226B3EEE00381C76 /* Application */,
 			);
 			path = studyBuddy;
 			sourceTree = "<group>";
@@ -246,12 +328,18 @@
 				63E9623A223D9A6D0003983E /* signUpViewController.swift in Sources */,
 				63EC98A4221CC497008EF069 /* unitViewController.swift in Sources */,
 				630D9DFE221609AA001ACB97 /* dlViewController.swift in Sources */,
+				63B8688A2269D45F00BC090F /* pomodoroViewController.swift in Sources */,
 				63EC98A6221CD085008EF069 /* auViewController.swift in Sources */,
 				630F7BC922582376000A6C04 /* MarksViewController.swift in Sources */,
 				63685449220A4E0100185F90 /* AppDelegate.swift in Sources */,
+				63185001226CA16F00F1AD68 /* StoryboardManager.swift in Sources */,
+				63185007226CA3EA00F1AD68 /* Unit.swift in Sources */,
+				63185005226CA37F00F1AD68 /* Deadline.swift in Sources */,
+				63185003226CA2AA00F1AD68 /* User.swift in Sources */,
 				630F7BC722582200000A6C04 /* MarksCell.swift in Sources */,
 				630D9DFC2214C2CA001ACB97 /* cellViewController.swift in Sources */,
 				63E96240223E39790003983E /* signInViewController.swift in Sources */,
+				63CFA27A2283940F003D4E00 /* BaseTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U6HSRVQVBN;
-				INFOPLIST_FILE = studyBuddy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/studyBuddy/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -419,7 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U6HSRVQVBN;
-				INFOPLIST_FILE = studyBuddy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/studyBuddy/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
