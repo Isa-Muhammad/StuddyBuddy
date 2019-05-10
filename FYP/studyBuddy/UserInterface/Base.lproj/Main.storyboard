@@ -126,7 +126,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfV-1M-kwe">
                                 <rect key="frame" x="97" y="401" width="181" height="57"/>
@@ -679,6 +679,7 @@
         <image name="units" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tgW-Fo-iAy"/>
+        <segue reference="bdl-mB-2SC"/>
+        <segue reference="H8h-bd-4Hf"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -1,3 +1,4 @@
+
 //
 //  dlViewController.swift
 //  studyBuddy
@@ -9,8 +10,9 @@
 import UIKit
 import FirebaseDatabase
 
-class dlViewController: UIViewController {
 
+class dlViewController: UIViewController {
+    
     
     @IBOutlet weak var input: UITextField!
     
@@ -27,7 +29,7 @@ class dlViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         
         inputDate.inputView = datePicker
         
@@ -60,14 +62,29 @@ class dlViewController: UIViewController {
                 print(error!)
             }
         }
+        // time trigger 24 hours
+        if let message = input.text {
+            let date = datePicker.date
+            let triggerTime = date.addingTimeInterval(-24*60*60)
+           
+            addLocalNotification(message: message, time: triggerTime)
+        }
+        
+        
+        
+    }
+    
+    func addLocalNotification(message: String, time: Date) {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.localNotificationHandler.scheduleNotification(message: message, subtitle: "Nothing", time: time)
     }
     
     
-   
+    
     @IBAction func dateChanged(_ sender: Any) {
         
         let dateFormatter = DateFormatter()
-    
+        
         dateFormatter.dateStyle = DateFormatter.Style.short
         dateFormatter.timeStyle = DateFormatter.Style.short
         
@@ -91,7 +108,7 @@ class dlViewController: UIViewController {
         }
     }
     
-
+    
     
     
     

@@ -22,6 +22,7 @@
 		63685453220A4E0300185F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63685451220A4E0300185F90 /* LaunchScreen.storyboard */; };
 		63B8688A2269D45F00BC090F /* pomodoroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B868892269D45F00BC090F /* pomodoroViewController.swift */; };
 		63CFA27A2283940F003D4E00 /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CFA2792283940F003D4E00 /* BaseTabBarViewController.swift */; };
+		63CFA27C2283BB6F003D4E00 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CFA27B2283BB6F003D4E00 /* LocalNotification.swift */; };
 		63E9623A223D9A6D0003983E /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E96239223D9A6D0003983E /* signUpViewController.swift */; };
 		63E9623E223DAF2B0003983E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63E9623D223DAF2B0003983E /* GoogleService-Info.plist */; };
 		63E96240223E39790003983E /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E9623F223E39790003983E /* signInViewController.swift */; };
@@ -49,6 +50,7 @@
 		63685454220A4E0300185F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63B868892269D45F00BC090F /* pomodoroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoroViewController.swift; sourceTree = "<group>"; };
 		63CFA2792283940F003D4E00 /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
+		63CFA27B2283BB6F003D4E00 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
 		63E96239223D9A6D0003983E /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 		63E9623D223DAF2B0003983E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "studyBuddy/Application/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		63E9623F223E39790003983E /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				63185000226CA16F00F1AD68 /* StoryboardManager.swift */,
+				63CFA27B2283BB6F003D4E00 /* LocalNotification.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				630D9DFC2214C2CA001ACB97 /* cellViewController.swift in Sources */,
 				63E96240223E39790003983E /* signInViewController.swift in Sources */,
 				63CFA27A2283940F003D4E00 /* BaseTabBarViewController.swift in Sources */,
+				63CFA27C2283BB6F003D4E00 /* LocalNotification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
