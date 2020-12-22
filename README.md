@@ -1,2 +1,1 @@
 # StuddyBuddy
-Final year project
